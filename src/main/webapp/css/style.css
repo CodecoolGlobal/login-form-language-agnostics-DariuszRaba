@@ -1,0 +1,146 @@
+body{
+    font-family: 'Roboto-thin' !important;
+    font-size: 2vh;
+	background: #ececec;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "roboto-thin";
+}
+
+#logo{
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    height: 8vw;
+    text-align: center;
+}
+
+#logo-image{
+
+}
+
+#loginDiv{
+    box-sizing: border-box;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    height:40%;
+    width: 30%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.40);
+}
+
+footer{
+    font-size: 1.5vh;
+    height: 4vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    padding-left: 1vw;
+}
+
+.instructionDiv{
+    padding-left: 30px;
+    text-align: left;
+    color: white;
+}
+
+.inputDiv{
+
+}
+
+#infoForUser1{
+    font-size: 2vw;
+
+}
+
+.errormessage{
+    color: red;
+    height: 25px;
+}
+
+#CClogo{
+    float: left;
+}
+
+#informationIcon{
+    float: right;
+}
+
+#informationIcon:hover{
+    background-color: rgb(68, 65, 65) ;
+}
+
+#profilephoto{
+    text-align: right;
+    background-color: black;
+    float: right;
+}
+
+#profilephoto:hover{
+    box-shadow:5px 10px 8px rgb(68, 65, 65);
+}
+
+.grid-container{
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30vh !important;
+    text-align: center;
+    display: inline-grid;
+    grid-gap: 25px 25px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+}
+
+@media(max-width:600px){                               /* grid wyswietla 2 kolumny */
+    .grid-container {
+       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media(max-width:400px){                               /* grid wyswietla 1 kolumne */
+    .grid-container {
+        margin-top: 30px;
+        margin-left: 60px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+.grid-container a{
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.grid-container a:link{
+    text-decoration: none;
+}
+
+.grid-container a:hover{
+    outline-style: solid;
+    outline-color: #4C99CD;
+    outline-width: 0.3vh;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.grid-container a:visited{
+    text-decoration: none;
+}
+
+.grid-item{
+    box-sizing: border-box;
+    text-align: center;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-top: 50px;
+    width: 200px;
+    height:120px;
+    background-color: white;
+}
+
+
